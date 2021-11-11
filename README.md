@@ -55,3 +55,5 @@ prevent_decorations [Prevent Desklet Decorations (true/false)?]: true
 
 1 directory, 5 files
 ```
+
+An example of *"hello world"* desklet application is available at [this link](https://github.com/ZenithClown/hello-cinnamon-desklet).
