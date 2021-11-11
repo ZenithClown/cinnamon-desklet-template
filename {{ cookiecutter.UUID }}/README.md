@@ -1,3 +1,3 @@
 # {{ cookiecutter.UUID }}
 
-<p align = "justify">{{ cookiecutter.prevent_decorations }}</p>
+<p align = "justify">{{ cookiecutter.description }}</p>
