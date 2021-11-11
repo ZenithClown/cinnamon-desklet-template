@@ -35,3 +35,23 @@ $ pip install cookiecutter
 
 ### Creating a Project from Remote URL
 <p align = "justify">Once the utility is installed, initiate a project with <code>cookiecutter https://github.com/ZenithClown/cinnamon-desklet-template</code>, this will ask a series of questions to initialize the directory as follows.</p>
+
+```shell
+~/.local/share/cinnamon/desklets > cookiecutter https://github.com/ZenithClown/cinnamon-desklet-template                                                        21:43:22
+project_name [My Projetc]: hello-world
+author_name [ZenithClown]: 
+UUID [hello-world@ZenithClown]: 
+description [A short description of hello-world.]: A hello world cinnamon desklet application.  
+prevent_decorations [Prevent Desklet Decorations (true/false)?]: true
+~/.local/share/cinnamon/desklets > cd hello-world@ZenithClown                                                                                             1m 8s 21:44:48
+~/.local/share/cinnamon/desklets/hello-world@ZenithClown > tree -ah                                                                                             21:44:56
+.
+├── [   0]  CHANGELOG.md
+├── [4.0K]  hello-world@ZenithClown
+│   ├── [  78]  desklet.js
+│   └── [ 174]  metadata.json
+├── [ 174]  info.json
+└── [   0]  README.md
+
+1 directory, 5 files
+```
