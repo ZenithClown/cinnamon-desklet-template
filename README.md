@@ -56,4 +56,4 @@ prevent_decorations [Prevent Desklet Decorations (true/false)?]: true
 1 directory, 5 files
 ```
 
-An example of *"hello world"* desklet application is available at [this link](https://github.com/ZenithClown/hello-cinnamon-desklet).
+An example of *"hello world"* desklet application is available at [this link](https://github.com/ZenithClown/hello-cinnamon-desklet). Note, if creating for local then `desklet.js` and `metadata.json` has to be present in root directory (i.e. unless published).
